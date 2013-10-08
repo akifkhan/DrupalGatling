@@ -1,3 +1,7 @@
+Welcome to drupal gatling.
+
+The repository provides a simple scenario for generating load on a drupal web application.  It is in no way complete.
+
 The UserSimulation takes three parameters from the command line.
 
 users - Number of users per webhead
