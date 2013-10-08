@@ -1,0 +1,11 @@
+The UserSimulation takes three parameters from the command line.
+
+users - Number of users per webhead
+time - The number of users are ramped over this time period in seconds
+webheads - Comma separated list of webheads.  A scenerio is built for each webhead.
+
+Example command:
+
+JAVA_OPTS="-Dusers=1600 -Dtime=180 -Dwebheads=http://webhead1,http://webhead2,http://webhead3,http://webhead4" ./<path to gatling>/bin/gatling.sh -s drupal.UserSimulation
+
+The above command will ramp 1600 users over 180 seconds for each of the 4 webheads.
